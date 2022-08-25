@@ -759,7 +759,7 @@ padding: 63px 24px;
   border: none;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-
+outline: none;
 }
 .btn-close:hover .modal-icon,
 .btn-close:focus .modal-icon{
@@ -834,6 +834,10 @@ color: var(--main-text-color);
 border: 1px solid var(--border-second);
 border-radius: 4px;
 outline: none;
+}
+.input-area:focus,
+.input-area:hover {
+  border-color: var(--accent-color);
 }
 .text-field label{
   display: block;
