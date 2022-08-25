@@ -349,7 +349,7 @@
         </div>
         <div class="footer-input">
         <b class="footer-input-text">Підпишіться на розсилку</b>
-        <div class="footer-input-box">
+        <form class="footer-input-box" >
           <input type="text"  class="footer-input-area" name="email" placeholder="E-mail" >
           <button class="button footer-btn"> 
            Підписатися
@@ -358,7 +358,7 @@
            </svg>
 
           </button>
-        </div>
+        </form>
         </div>
     
          
@@ -372,7 +372,7 @@
         <button data-modal-close class="btn-close"><svg width="11px" height="11px" class="modal-icon">
           <use href="./image/icons.svg#icon-close-black-18dp-2-1"></use>
         </svg></button>
-        <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+        <b class="modal-title">Залиште свої дані, ми вам передзвонимо</b>
         <div class="text-field">
             <label for="user-name">Ім'я</label>
             <div class="input-box">
@@ -409,15 +409,15 @@
            </div>
         </div>
         
-           <div class="text-field">
+           <div class="text-field comment">
             <label for="comment">Коментар</label>
-              <textarea name="comment" id="comment" placeholder="Введіть текст" class="input-text"></textarea >
+              <textarea name="comment" id="comment" placeholder="Введіть текст" class="input-area"></textarea >
           </div>
 
           <div class="policy">
                <input type="checkbox" name="user-policy" id="user-policy" class="checkbox visually-hidden" value="accept">
                <label class="checkbox-text" for="user-policy" name="user-policy">
-               <span >
+               <span class="policy-checkbox" >
               <svg class=accept-icon width="11px" height="8px">
                <use href="./image/icons.svg#icon-check"></use>
               </svg>
